@@ -5,13 +5,13 @@
 
 Summary:	Nepomuk Widgets utilities and libraries
 Name:		kde4-nepomuk-widgets
-Version:	4.11.4
+Version:	4.12.0
 Release:	1
 License:	LGPLv2 or LGPLv3
 Group:		X11/Applications
 URL:		http://www.kde.org/
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	caab09a58e7abff34c2e9e5e3d71723a
+# Source0-md5:	ba1076f5db4c8f76a24a09c9ce551f8c
 BuildRequires:	kde4-nepomuk-core-devel >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
